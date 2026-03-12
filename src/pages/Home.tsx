@@ -418,7 +418,7 @@ export default function Home({ targetSection }: HomeProps) {
 
               {/* 第二行，保持同样 3:7 栅格 */}
               <div className="md:col-span-3 flex flex-col justify-center">
-                <h2 className="text-2xl md:text-3xl">产品结构构成</h2>
+                <h2 className="text-2xl md:text-3xl mb-4">产品结构构成</h2>
                 <p className="text-sm leading-relaxed text-white/75">
                   核心架构搭载专门优化的
                   <span className="highlight-marker">Snapdragon AR1 Gen1</span>
