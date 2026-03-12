@@ -575,7 +575,7 @@ export default function Home({ targetSection }: HomeProps) {
               <div className="space-y-5">
                 <div className="grid gap-6 md:grid-cols-2">
                   <figure className="space-y-3">
-                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-48">
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-72">
                       <img src={'/report_media/影视剧即时翻译效果.png'} alt="影视剧即时翻译效果" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <figcaption className="text-xs leading-relaxed text-white/55">
@@ -585,7 +585,7 @@ export default function Home({ targetSection }: HomeProps) {
                   </figure>
 
                   <figure className="space-y-3">
-                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-48">
+                    <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-72">
                       <img src={'/report_media/发布会演示效果.png'} alt="发布会演示效果" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <figcaption className="text-xs leading-relaxed text-white/55">
