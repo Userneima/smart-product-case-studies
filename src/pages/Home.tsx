@@ -563,7 +563,7 @@ export default function Home({ targetSection }: HomeProps) {
                 </ul>
               </div>
 
-              <MediaFigureByFile filename={'Meta AI app for managing Ray-ban Meta AI glasses.webp'} caption={'Meta AI 管理 Ray-Ban Meta 眼镜应用'} />
+              {/* Image removed per request */}
 
               <div className="space-y-5">
                 <h2 className="text-2xl md:text-3xl">智能声场：内容可信度的隐形变量</h2>
