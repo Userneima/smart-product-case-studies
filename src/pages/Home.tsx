@@ -539,6 +539,9 @@ export default function Home({ targetSection }: HomeProps) {
                   <strong className="text-white">「Look and Ask」</strong>
                   实现了物理环境的<span className="highlight-marker">“Prompt 化”</span>。它消解了传统硬件繁琐的开启步骤，让第一视角成为<span className="highlight-marker">最自然的交互媒介</span>。从视觉获知到行为触发，AI 的介入被简化为一种近乎无感的<span className="highlight-marker">直觉反应</span>。
                 </p>
+
+                {/* images moved below near '智能声场' title to control layout and equal heights */}
+
                 <div className="rounded-2xl border border-white/10 bg-black/30 p-5 text-sm leading-relaxed text-white/75">
                   <div className="text-xs tracking-[0.28em] text-white/55">WHY IT MATTERS</div>
                   <p className="mt-3">
@@ -570,6 +573,7 @@ export default function Home({ targetSection }: HomeProps) {
               {/* Image removed per request */}
 
               <div className="space-y-5">
+                <Figure src={'/report_media/影视剧即时翻译效果.png'} caption={'影视剧即时翻译效果'} credit={'Youtube账号sandyinthemood截取'} />
                 <h2 className="text-2xl md:text-3xl">智能声场：内容可信度的隐形变量</h2>
                 <p className="text-sm leading-relaxed text-white/75">
                   五麦克风阵列被官方用于强调“immersive audio recording”与在嘈杂/有风环境下更好表现。
