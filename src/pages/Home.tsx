@@ -532,8 +532,9 @@ export default function Home({ targetSection }: HomeProps) {
             <div className="grid gap-8">
               <div className="space-y-5">
                 <h2 className="text-2xl md:text-3xl">“Look and Ask”多模态交互逻辑</h2>
-                <p className="text-sm leading-relaxed text-white/75">
-                  这不是“语音助手 + 相机”的简单叠加，而是一条把现实世界转化为 prompt 的链路：用户在日常场景中几乎零切换成本地提出问题，系统以语音回放完成闭环，并逐步扩展到可执行动作（扫码、提醒、分享）。
+                <p className="text-sm leading-relaxed text-white/75 mb-6">
+                  <strong className="text-white">「Look and Ask」</strong>
+                  实现了物理环境的<span className="highlight-marker">“Prompt 化”</span>。它消解了传统硬件繁琐的开启步骤，让第一视角成为<span className="highlight-marker">最自然的交互媒介</span>。从视觉获知到行为触发，AI 的介入被简化为一种近乎无感的<span className="highlight-marker">直觉反应</span>。
                 </p>
                 <div className="rounded-2xl border border-white/10 bg-black/30 p-5 text-sm leading-relaxed text-white/75">
                   <div className="text-xs tracking-[0.28em] text-white/55">WHY IT MATTERS</div>
