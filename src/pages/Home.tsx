@@ -314,7 +314,7 @@ export default function Home({ targetSection }: HomeProps) {
                   <div className="flex flex-col">
                     <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/30">
                       <video
-                        src={`/report_media/商品使用宣传片.mp4`}
+                        src={`/report_media/Connect-24 Rbm-Updates Header.mp4`}
                         controls
                         playsInline
                         className="w-full"
@@ -347,16 +347,34 @@ export default function Home({ targetSection }: HomeProps) {
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center text-white font-semibold">M</div>
-                    <span className="text-lg font-semibold text-white">Meta</span>
+                    <span className="text-lg font-semibold text-white">Meta：提供智能核心与生态闭环</span>
                   </div>
-                  <p className="text-sm text-white/75">负责 Meta AI、应用生态与云端推理；官宣 Meta AI「Built with Llama 3」，并明确在美国 Ray‑Ban Meta 眼镜上可用。角色：模型、OS/应用与内容分发。</p>
+                  <div className="text-sm text-white/75">
+                    <div>· 核心职能：负责产品的“智能化”定义。</div>
+                    <div className="mt-2">· 具体作用：</div>
+                    <ol className="mt-1 list-decimal list-inside text-white/75">
+                      <li>AI 算力注入：将 Llama 3 大模型集成至终端，提供多模态交互（语音/视觉）与云端推理能力，使眼镜具备理解环境的能力。</li>
+                      <li className="mt-1">软件生态构建：提供操作系统（OS）及应用分发平台，确保硬件拥有持续的内容更新与服务支持。</li>
+                      <li className="mt-1">数据闭环：通过第一视角采集数据，反哺 AI 模型训练，形成技术迭代壁垒。</li>
+                    </ol>
+                    <div className="mt-2">· 关键价值：解决了传统眼镜“功能单一、缺乏交互”的问题，赋予产品计算属性。</div>
+                  </div>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center text-white font-semibold">L</div>
-                    <span className="text-lg font-semibold text-white">EssilorLuxottica</span>
+                    <span className="text-lg font-semibold text-white">EssilorLuxottica：提供硬件载体与市场通道</span>
                   </div>
-                  <p className="text-sm text-white/75">拥有 Ray-Ban、Oakley 等品牌；负责镜框设计、光学、规模化制造与全球零售及验光渠道。合作延展至 2030 年。</p>
+                  <div className="text-sm text-white/75">
+                    <div>· 核心职能：负责产品的“物理化”落地与商业化。</div>
+                    <div className="mt-2">· 具体作用：</div>
+                    <ol className="mt-1 list-decimal list-inside text-white/75">
+                      <li>工业设计与光学整合：利用 Ray-Ban 经典版型与光学专长，将摄像头、电池等电子元件微型化并隐藏，确保佩戴舒适度与美观性。</li>
+                      <li className="mt-1">规模化制造：解决消费电子难以兼顾时尚品控与大规模生产的难题。</li>
+                      <li className="mt-1">渠道渗透：开放全球零售网络及专业验光渠道，降低用户尝试门槛，解决智能眼镜“购买难、配镜难”的痛点。</li>
+                    </ol>
+                    <div className="mt-2">· 关键价值：解决了科技产品“形态怪异、渠道受限”的问题，赋予产品消费属性。</div>
+                  </div>
                 </div>
               </div>
               <div className="rounded-2xl border border-white/10 bg-black/30 p-5">
