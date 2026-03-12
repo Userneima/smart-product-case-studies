@@ -514,6 +514,9 @@ export default function Home({ targetSection }: HomeProps) {
                 </table>
               </div>
               <div className="mt-3 text-xs text-white/45">数据来源：Meta 官方、Omdia、公开评测。</div>
+              <div className="mt-6">
+                <Figure src={'/report_media/第一视角感.png'} caption="第一视角感" credit="Youtube账号sandyinthemood截取" />
+              </div>
             </div>
               </div>
             </div>
