@@ -292,6 +292,11 @@ export default function Home({ targetSection }: HomeProps) {
             </div>
           </section>
 
+              <div className="grid gap-6 md:grid-cols-2 mt-6">
+                <Figure src={'/report_media/放眼镜的侧面状态.png'} caption={'放眼镜的侧面状态'} credit={'Youtube账号sandyinthemood截取'} />
+                <Figure src={'/report_media/折叠状态.png'} caption={'折叠状态'} credit={'Youtube账号sandyinthemood截取'} />
+              </div>
+
           <SectionDivider />
 
           {/* 01 案例选择说明 */}
