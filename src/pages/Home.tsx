@@ -357,7 +357,7 @@ export default function Home({ targetSection }: HomeProps) {
                       <li className="mb-3">软件生态构建：提供 <span className="highlight-marker">操作系统（OS）</span> 及应用分发平台，确保硬件拥有持续的内容更新与服务支持。</li>
                       <li className="mb-3">数据闭环：通过 <span className="highlight-marker">第一视角采集数据</span>，反哺 AI 模型训练，形成技术迭代壁垒。</li>
                     </ol>
-                    <div className="mt-2">· 关键价值：解决了传统眼镜“功能单一、缺乏交互”的问题，<span className="highlight-marker">赋予产品计算属性</span>。</div>
+                    <div className="mt-2">· 关键价值：解决了传统眼镜“功能单一、缺乏交互”的问题，<span className="highlight-marker">赋予产品计算属性</span></div>
                   </div>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -373,7 +373,7 @@ export default function Home({ targetSection }: HomeProps) {
                       <li className="mb-3">规模化制造：解决消费电子难以兼顾 <span className="highlight-marker">时尚品控与大规模生产</span> 的难题。</li>
                       <li className="mb-3">渠道渗透：开放全球零售网络及专业<span className="highlight-marker">验光渠道</span>，降低用户尝试门槛，解决智能眼镜“购买难、配镜难”的痛点。</li>
                     </ol>
-                    <div className="mt-2">· 关键价值：解决了科技产品“形态怪异、渠道受限”的问题，<span className="highlight-marker">赋予产品消费属性</span>。</div>
+                    <div className="mt-2">· 关键价值：解决了科技产品“形态怪异、渠道受限”的问题，<span className="highlight-marker">赋予产品消费属性</span></div>
                   </div>
                 </div>
               </div>
