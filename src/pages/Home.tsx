@@ -292,11 +292,6 @@ export default function Home({ targetSection }: HomeProps) {
             </div>
           </section>
 
-              <div className="grid gap-6 md:grid-cols-2 mt-6">
-                <Figure src={'/report_media/放眼镜的侧面状态.png'} caption={'放眼镜的侧面状态'} credit={'Youtube账号sandyinthemood截取'} />
-                <Figure src={'/report_media/折叠状态.png'} caption={'折叠状态'} credit={'Youtube账号sandyinthemood截取'} />
-              </div>
-
           <SectionDivider />
 
           {/* 01 案例选择说明 */}
@@ -327,7 +322,7 @@ export default function Home({ targetSection }: HomeProps) {
 
                   <li className="mb-4 text-sm leading-relaxed text-white/75">
                     <strong className="text-white">行业定义标准：</strong>
-                    成功定义了 <span className="highlight-marker">「无屏 AI 眼镜 + 时尚品牌」</span> 的新物种形态；IDC 将其列为 2025 年全球增速最快（<span className="highlight-marker">+247%</span>）的硬件品类
+                    成功定义了 <span className="highlight-marker">「无屏 AI 眼镜 + 时尚品牌」</span> 的新物种形态；据 <span className="highlight-marker">EssilorLuxottica</span> 财报，其 2025 年销量同比增速超 <span className="highlight-marker">247%</span>，是智能眼镜赛道增长最快的核心产品。
                   </li>
                 </ul>
               </div>
@@ -406,6 +401,12 @@ export default function Home({ targetSection }: HomeProps) {
                 <Figure src={camera12mp} caption="12MP 超广角相机模组（示意图）" credit="Meta Newsroom" />
               </div>
             </div>
+
+            <div className="grid gap-6 md:grid-cols-2">
+              <Figure src={'/report_media/放眼镜的侧面状态.png'} caption={'放眼镜的侧面状态'} credit={'Youtube账号sandyinthemood截取'} />
+              <Figure src={'/report_media/折叠状态.png'} caption={'折叠状态'} credit={'Youtube账号sandyinthemood截取'} />
+            </div>
+
               </div>
             </div>
           </section>
@@ -521,6 +522,11 @@ export default function Home({ targetSection }: HomeProps) {
               <div className="mt-3 text-xs text-white/45">数据来源：Meta 官方、Omdia、公开评测。</div>
               <div className="mt-6">
                 <Figure src={'/report_media/第一视角感.png'} caption="第一视角感" credit="Youtube账号sandyinthemood截取" />
+
+                <div className="grid gap-6 md:grid-cols-2 mt-6">
+                  <Figure src={'/report_media/右侧镜腿内部结构.png'} caption={'右侧镜腿内部结构'} credit={'AUDIO拆解文章'} />
+                  <Figure src={'/report_media/眼镜盒内部结构.png'} caption={'眼镜盒内部结构'} credit={'AUDIO拆解文章'} />
+                </div>
               </div>
             </div>
               </div>
@@ -563,6 +569,28 @@ export default function Home({ targetSection }: HomeProps) {
             </div>
 
             <div className="grid gap-8">
+              <div className="grid gap-6 md:grid-cols-2 mb-6">
+                <figure className="space-y-3">
+                  <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                    <video src={'/report_media/EMG 腕带演示视频.mp4'} controls playsInline className="w-full" preload="metadata" />
+                  </div>
+                  <figcaption className="text-xs leading-relaxed text-white/55">
+                    <span className="text-white/75">EMG 腕带演示视频</span>
+                    <span className="block pt-1 text-white/45">来源：Ray-Ban Meta 官网公开素材</span>
+                  </figcaption>
+                </figure>
+
+                <figure className="space-y-3">
+                  <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 h-72">
+                    <img src={'/report_media/腕带和眼镜.webp'} alt="腕带和眼镜" className="w-full h-full object-cover" loading="lazy" />
+                  </div>
+                  <figcaption className="text-xs leading-relaxed text-white/55">
+                    <span className="text-white/75">腕带和眼镜</span>
+                    <span className="block pt-1 text-white/45">来源：Ray-Ban Meta 官网公开素材</span>
+                  </figcaption>
+                </figure>
+              </div>
+
               <div className="space-y-5">
                 <h2 className="text-2xl md:text-3xl">实时翻译：无屏幕设备的“语言层 API”</h2>
                 <p className="text-sm leading-relaxed text-white/75">
@@ -792,23 +820,127 @@ export default function Home({ targetSection }: HomeProps) {
               <div className="relative space-y-8">
                 <SectionLabel no="11" label="竞品定位与差异" />
                 <Hairline />
-                <div className="overflow-x-auto">
-              <table className="w-full min-w-[640px] border-separate border-spacing-0 text-sm">
-                <thead>
-                  <tr className="text-xs tracking-[0.2em] text-white/55">
-                    <th className="border-b border-white/10 px-4 py-3 text-left">产品</th>
-                    <th className="border-b border-white/10 px-4 py-3 text-left">形态/卖点</th>
-                    <th className="border-b border-white/10 px-4 py-3 text-left">简要对比</th>
-                  </tr>
-                </thead>
-                <tbody className="text-white/75">
-                  <tr><td className="border-b border-white/10 px-4 py-3 text-white">Ray-Ban Meta</td><td className="border-b border-white/10 px-4 py-3">无屏+语音；时尚品牌</td><td className="border-b border-white/10 px-4 py-3">市占第一；国内 AI 缺失、佩戴适配弱</td></tr>
-                  <tr><td className="border-b border-white/10 px-4 py-3 text-white">千问 G1 / 夸克</td><td className="border-b border-white/10 px-4 py-3">40g、换电；国补后约 1997 元起</td><td className="border-b border-white/10 px-4 py-3">本土化功能强；国产代表</td></tr>
-                  <tr><td className="border-b border-white/10 px-4 py-3 text-white">Rokid</td><td className="border-b border-white/10 px-4 py-3">光波导+摄像头</td><td className="border-b border-white/10 px-4 py-3">横评最均衡；显示识别、支付等成熟</td></tr>
-                  <tr><td className="px-4 py-3 text-white">小米 / 雷鸟 / 魅族</td><td className="px-4 py-3">性价比、生态绑定</td><td className="px-4 py-3">预算友好；续航均不足一天为行业共性</td></tr>
-                </tbody>
-              </table>
-            </div>
+                <div className="space-y-6">
+                  <div className="grid gap-6">
+                    {/* Ray-Ban Meta 卡片（非对称：左图，右避坑分析） */}
+                    <div className="rounded-2xl border border-white/10 bg-white/5 p-6 md:grid md:grid-cols-[260px_1fr] md:items-center">
+                      <div className="mr-6">
+                        <img src={'/report_media/腕带和眼镜2.jpg'} alt="Ray-Ban Meta" className="w-full h-auto object-contain rounded-lg" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">Ray‑Ban Meta（行业标杆）</h3>
+                        <p className="mt-2 text-sm text-white/75">
+                          侧重于 <span className="highlight-marker">IMX681</span> 传感器带来的夜间成像素质与视频稳定性（虽仍逊于手机但已达可用门槛）；优势在于极高的操作隐蔽性与流畅感。
+                        </p>
+                        <ul className="mt-3 list-disc pl-5 text-sm text-white/75">
+                          <li>图像：以传感器与算法优化为主，适合第一视角内容生产。</li>
+                          <li>交互：无屏+语音，低切换成本。</li>
+                        </ul>
+                        <div className="mt-4 flex items-center gap-4">
+                          <div className="rounded-lg bg-black/30 p-3 text-sm text-white/75">续航（眼镜）：<span className="text-white">8h</span></div>
+                          <div className="rounded-lg bg-black/30 p-3 text-sm text-white/75">Meta 手环：<span className="text-white">8h</span></div>
+                        </div>
+                        <div className="mt-4 rounded-lg border border-white/6 bg-black/20 p-3 text-sm text-white/70">
+                          <strong className="text-white">避坑式分析：</strong> 采用固定式一体化鼻托，鼻托区域集成了麦克风收音口，对低鼻梁人群贴合度不足，部分人佩戴易滑落。
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* 夸克 S1 卡片 */}
+                    <div className="rounded-2xl border border-white/10 bg-white/5 p-6 md:grid md:grid-cols-[260px_1fr] md:items-center">
+                      <div className="mr-6">
+                        <img src={'/report_media/夸克S1.jpg'} alt="夸克 S1" className="w-full h-auto object-contain rounded-lg" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">夸克 S1（国产黑马）</h3>
+                        <p className="mt-2 text-sm text-white/75">
+                          强调阿里千问生态支持，并在工程上解决了显示类常见问题（<span className="highlight-marker">两眼绿光</span>）的四向调节；骨传导方案在嘈杂环境下提供更好的<span className="highlight-marker">骨传导收音</span>，并实现了便捷的<span className="highlight-marker">换电方案</span>（热插拔）。
+                        </p>
+                        <ul className="mt-3 list-disc pl-5 text-sm text-white/75">
+                          <li>生态：阿里千问，应用与本地化服务丰富。</li>
+                          <li>工程：显示调节与换电设计为其差异化优势。</li>
+                        </ul>
+                        <div className="mt-4 rounded-lg border border-white/6 bg-black/20 p-3 text-sm text-white/70">
+                          <strong className="text-white">避坑式分析：</strong> 骨传导固然在私密收音上表现优异，但需验证在高速通行/强噪声下的拾音鲁棒性与振动耦合问题。
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* 小米 AI 卡片 */}
+                    <div className="rounded-2xl border border-white/10 bg-white/5 p-6 md:grid md:grid-cols-[260px_1fr] md:items-center">
+                      <div className="mr-6">
+                        <img src={'/report_media/小米AI眼镜.jpg'} alt="小米 AI 眼镜" className="w-full h-auto object-contain rounded-lg" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold text-white">小米 AI（生态入口）</h3>
+                        <p className="mt-2 text-sm text-white/75">
+                          优势在于“小爱同学”对智能家居的底层控制能力，以及设备的物理接口通用性（Type‑C），便于与手机/配件互联。
+                        </p>
+                        <ul className="mt-3 list-disc pl-5 text-sm text-white/75">
+                          <li>生态互联：在 IoT 场景下具备快速落地能力。</li>
+                          <li>工程设计：注重成本与普适接口带来的兼容性。</li>
+                        </ul>
+                        <div className="mt-4 rounded-lg border border-white/6 bg-black/20 p-3 text-sm text-white/70">
+                          <strong className="text-white">避坑式分析：</strong> Type‑C 虽然通用，但接口布局与防水、耐用性是工程实现的关键。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* 技术共性 Tip */}
+                  <div className="rounded-2xl border border-white/10 bg-black/30 p-5">
+                    <div className="text-xs tracking-[0.28em] text-white/55">TIP · 技术共性痛点</div>
+                    <p className="mt-3 text-sm text-white/75">所有无屏/开放式结构的产品普遍存在严重的漏音（open‑ear leakage）问题：扬声器向外泄露导致隐私/通话质量下降，需要在声学隔离、指向性扬声器与软件回声控制上做工程折衷。</p>
+                  </div>
+
+                  {/* 工业设计洞察：动态平衡 */}
+                  <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <div className="text-xs tracking-[0.28em] text-white/55">ID 洞察 · 动态平衡</div>
+                    <p className="mt-3 text-sm text-white/75">重量轻是基础，真正影响长时间佩戴舒适性的，是整体的 <span className="highlight-marker">重心平衡</span> 与重量分布。例如把电池/芯片后置可显著降低鼻梁压迫感，并在动态活动中提升稳定性；工程上需兼顾结构强度与热流管理。</p>
+                  </div>
+
+                  {/* 底层参数横评 */}
+                  <div className="overflow-x-auto">
+                    <table className="w-full min-w-[720px] border-separate border-spacing-0 text-sm">
+                      <thead>
+                        <tr className="text-xs tracking-[0.2em] text-white/55">
+                          <th className="border-b border-white/10 px-4 py-3 text-left">产品</th>
+                          <th className="border-b border-white/10 px-4 py-3 text-left">传感器 / 相机</th>
+                          <th className="border-b border-white/10 px-4 py-3 text-left">显示/光学</th>
+                          <th className="border-b border-white/10 px-4 py-3 text-left">音频方案</th>
+                          <th className="border-b border-white/10 px-4 py-3 text-left">电池 / 续航</th>
+                          <th className="border-b border-white/10 px-4 py-3 text-left">工程亮点</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-white/75">
+                        <tr>
+                          <td className="border-b border-white/10 px-4 py-3 text-white">Ray‑Ban Meta</td>
+                          <td className="border-b border-white/10 px-4 py-3">IMX681（夜间成像与视频稳定）</td>
+                          <td className="border-b border-white/10 px-4 py-3">无屏；偏向轻量与外观一致性</td>
+                          <td className="border-b border-white/10 px-4 py-3">开放式扬声器（漏音问题明显）</td>
+                          <td className="border-b border-white/10 px-4 py-3">眼镜：6h；手环：8h（对比展示）</td>
+                          <td className="border-b border-white/10 px-4 py-3">隐形操作体验、重心与结构微调</td>
+                        </tr>
+                        <tr>
+                          <td className="border-b border-white/10 px-4 py-3 text-white">夸克 S1</td>
+                          <td className="border-b border-white/10 px-4 py-3">适配主流传感器，侧重显示校准</td>
+                          <td className="border-b border-white/10 px-4 py-3">四向调节以缓解 <span className="highlight-marker">两眼绿光</span> 外泄</td>
+                          <td className="border-b border-white/10 px-4 py-3">骨传导 + 定向拾音（强调 <span className="highlight-marker">骨传导收音</span>）</td>
+                          <td className="border-b border-white/10 px-4 py-3">换电方案支持热插拔（工程上提升可持续使用）</td>
+                          <td className="border-b border-white/10 px-4 py-3">换电模块化、显示调节机制</td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 text-white">小米 AI</td>
+                          <td className="px-4 py-3">传感器通用，偏向成本/生态优化</td>
+                          <td className="px-4 py-3">部分机型带光学/显示方案，兼顾成本</td>
+                          <td className="px-4 py-3">采用逆声场防漏音技术，能有效抑制声音外泄，保护隐私</td>
+                          <td className="px-4 py-3">针对 AI 交互、通话、拍摄等高耗场景优化续航策略</td>
+                          <td className="px-4 py-3">Type‑C 接口与生态互联为工程优势</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -917,6 +1049,36 @@ export default function Home({ targetSection }: HomeProps) {
                   7. EssilorLuxottica Press Release (2025-02-12). Q4/Full Year 2024 Results.
                   <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://www.essilorluxottica.com/en/newsroom/press-releases/q4-full-year-2024-results/" target="_blank" rel="noreferrer">
                     https://www.essilorluxottica.com/en/newsroom/press-releases/q4-full-year-2024-results/
+                  </a>
+                </li>
+                <li>
+                  8. Meta Blog. Oakley Meta AI Glasses: Sports Wearables and HSTN.
+                  <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://www.meta.com/blog/oakley-meta-ai-glasses-sports-wearables-hstn/" target="_blank" rel="noreferrer">
+                    https://www.meta.com/blog/oakley-meta-ai-glasses-sports-wearables-hstn/
+                  </a>
+                </li>
+                <li>
+                  9. 52 音频. 拆解报告：RayBan雷朋.
+                  <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://www.52audio.com/archives/229348.html" target="_blank" rel="noreferrer">
+                    https://www.52audio.com/archives/229348.html
+                  </a>
+                </li>
+                <li>
+                  10. WaytoAGI 飞书知识库. 智能眼镜全球融投资.
+                  <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://waytoagi.feishu.cn/wiki/RWC5wEsFbiGXIEkrGrtcWsFPnye" target="_blank" rel="noreferrer">
+                    https://waytoagi.feishu.cn/wiki/RWC5wEsFbiGXIEkrGrtcWsFPnye
+                  </a>
+                </li>
+                <li>
+                  11. OFweek 可穿戴设备网. 智能眼镜行业报道.
+                  <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://mp.ofweek.com/wearable/a956714161607" target="_blank" rel="noreferrer">
+                    https://mp.ofweek.com/wearable/a956714161607
+                  </a>
+                </li>
+                <li>
+                  12. 小米官网. 小米 AI 眼镜 产品介绍页.
+                  <a className="ml-2 text-[oklch(0.78_0.18_190)] underline underline-offset-4" href="https://www.mi.com/prod/xiaomi-ai-glasses" target="_blank" rel="noreferrer">
+                    https://www.mi.com/prod/xiaomi-ai-glasses
                   </a>
                 </li>
               </ol>
